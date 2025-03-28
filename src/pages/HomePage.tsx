@@ -27,7 +27,7 @@ export default function HomePage() {
             key={index}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.1, delay: index * 0.05 }}
+            transition={{ duration: 2, delay: index * 0.05 }}
           >
             {char}
           </motion.span>
@@ -39,7 +39,7 @@ export default function HomePage() {
             key={index}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.1, delay: titleText.length * 0.05 + index * 0.05 }}
+            transition={{ duration: 0.125, delay: titleText.length * 0.05 + index * 0.05 }}
           >
             {char}
           </motion.span>
